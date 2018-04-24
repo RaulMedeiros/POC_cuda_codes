@@ -24,7 +24,7 @@ int main()
 	const int csize = N*sizeof(char);
 	const int isize = N*sizeof(int);
  
-	printf("%s", a);
+	printf("FELA!! %s", a);
  
 	cudaMalloc( (void**)&ad, csize ); 
 	cudaMalloc( (void**)&bd, isize ); 
